@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Postions</title>
+    <style>
+
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .parent 
+        {
+            width: 500px;
+            height: 1200px;
+            border: 10px solid red;
+            margin: 30px;
+           
+        }
+
+        .parent2 
+        {
+            width: 250px;
+            height: 500px;
+            border: 10px solid blue;
+            margin: 30px;
+            font-size: 50px;
+            /* position: relative; */
+          
+        }
+
+        .one 
+        {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+        }
+
+        .two
+        {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            /* top: 20px;
+            left: 100px; */
+            /* margin-top: 20px; */
+        }
+
+        .three
+        {
+            width: 100px;
+            height: 100px;
+            background-color: cyan;
+            position:fixed;
+            top: 0;
+            left: 0;
+            z-index: 11;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- it is positioned according to its original place -->
+    <!-- absolute is positioned according to the viewport or to the nearest positioned ancestor -->
+    <!-- fixed is positioned to the viewport -->
+    <div class="parent">
+
+        <div class="parent2">
+
+            <div class="one">1</div>
+            <div class="two">2</div>
+            <div class="three">3</div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

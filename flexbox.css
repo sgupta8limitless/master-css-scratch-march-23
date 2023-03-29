@@ -1,0 +1,52 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.avengers 
+{
+    
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-content: start; */
+    /* column-gap: 4%; */
+    /* row-gap: 30px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: row-reverse;
+  
+}
+
+.hero 
+{
+    width: 20%;
+    height: 200px;
+    background-color: gray;
+    font-size: 100px;
+}
+
+.hero1 
+{
+    background-color: red;
+    /* order: 7; */
+}
+
+.hero2 
+{
+    background-color: green;
+    /* order: 4; */
+    /* flex-grow: 2; */
+}
+
+.hero3 
+{
+    background-color: blue;
+    /* flex-grow: 2; */
+    /* order: 10; */
+}
