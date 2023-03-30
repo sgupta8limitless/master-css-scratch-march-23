@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .ball
+        {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: red;
+            animation-name: ballm;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+
+        @keyframes ballm 
+        {
+            20%
+            {
+                margin-top: 0;
+              margin-left: 1000px;
+            }
+
+            40% 
+            {
+                margin-top: 700px;
+                margin-left: 1000px;
+            }
+
+            60%
+            {
+                margin-left: 0;
+                margin-top: 700px;
+
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="ball">
+
+    </div>
+
+</body>
+</html>
