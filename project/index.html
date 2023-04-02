@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Shop</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- header  -->
+
+    <header class="header" id="header">
+        
+        <div class="logo">
+            <p>Sportify</p>
+        </div>
+
+        <nav class="nav">
+            <ul id="nav">
+                <a href="#">
+                    <li>
+                        Home
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Categories
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Products
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Contact
+                    </li>
+                </a>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- banner  -->
+
+    <section class="banner">
+
+            <div class="slide">
+
+                <div class="overlay">
+
+                    <div class="details">
+                        <p>All your <span class="highlight">sports</span> needs at one place.</p>
+                        <button class="main_bt">Explore Now</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+
+    <!-- categories  -->
+
+    <section class="categories">
+
+        <h1 class="section_title">Featured Categories</h1>
+
+        <div class="content">
+
+            <div class="category">
+                <div class="cat_details">
+                    For Him
+                </div>
+            </div>
+
+
+            <div class="category">
+                <div class="cat_details">
+                    For Her
+                </div>
+            </div>
+
+
+            <div class="category">
+                <div class="cat_details">
+                    For Kids
+                </div>
+            </div>
+
+
+            <div class="category">
+                <div class="cat_details">
+                    Equipments
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- products  -->
+
+    <section class="products">
+
+            <h1 class="section_title">New Products</h1>
+
+            <div class="products_content">
+
+                <div class="product">
+                    <div class="product_img">
+                        <img src="./images/pro1.webp" alt="product">
+                    </div>
+                    <div class="product_details">
+                        <h1>Dumbells</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                        <h2>$20</h2>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product_img">
+                        <img src="./images/pro2.webp" alt="product">
+                    </div>
+                    <div class="product_details">
+                        <h1>Dumbells</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                        <h2>$20</h2>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product_img">
+                        <img src="./images/pro3.webp" alt="product">
+                    </div>
+                    <div class="product_details">
+                        <h1>Dumbells</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                        <h2>$20</h2>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product_img">
+                        <img src="./images/pro4.webp" alt="product">
+                    </div>
+                    <div class="product_details">
+                        <h1>Dumbells</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                        <h2>$20</h2>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product_img">
+                        <img src="./images/pro4.webp" alt="product">
+                    </div>
+                    <div class="product_details">
+                        <h1>Dumbells</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                        <h2>$20</h2>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
+
+
+
+    <script>
+
+        window.onscroll=function(){
+            if(window.scrollY>=100)
+            {
+                document.getElementById('header').style.backgroundColor="white";
+                document.getElementById('nav').style.color="black";
+                document.getElementById('header').style.boxShadow="0 0 5px gray";
+            }
+            else 
+            {
+                document.getElementById('header').style.backgroundColor="transparent"; 
+                document.getElementById('nav').style.color="white"; 
+                document.getElementById('header').style.boxShadow="none"; 
+            }
+        }
+
+    </script>
+
+    
+</body>
+</html>
